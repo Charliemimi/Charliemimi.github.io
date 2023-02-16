@@ -1,0 +1,87 @@
+.weather-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+
+    background-image: url(./img/landscape-nature-wilderness-mountain-snow-winter-1045692-pxhere.com.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgba(230, 241, 255, 0.6);
+    color: rgb(82, 82, 82);
+    border-color: rgb(133, 136, 138);
+}
+input{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(230, 241, 255, 0.6);
+    border-color: rgb(133, 136, 138);
+
+}
+.today-weather{
+    background-color: rgb(173, 202, 241, 0.6);
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 10px rgb(30, 46, 71);
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.characteristics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+.characteristics> h4{
+    padding: 2px;
+}
+
+.second-container{
+    /* background-color: rgb(173, 202, 241, 0.6); */
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+}
+.day2, .day3, .day4, .day5{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    background-color: rgb(173, 202, 241, 0.6);
+    box-shadow: 10px 10px 10px rgb(41, 58, 85);
+    border-radius: 20px;
+    padding: 50px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+
+}
+.day2:hover, .day3:hover, .day4:hover, .day5:hover{
+    transform: scale(1.1);
+
+}
